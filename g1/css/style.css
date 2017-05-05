@@ -9,9 +9,13 @@ body {
 	margin: 16px;
 }
 
-.header-topo {
+.title {
 	text-align: center;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 47px;
+	margin-top: 15px;
 }
+
 
 .topo .logo {
 	height: 46px;
@@ -29,31 +33,35 @@ body {
 
 .menu-button {
 	background-color: rgb(97, 88, 76);
-	width: 46px;
-	height: 46px;
 	display: inline-block;
+	padding: 13.5px 11px;
 }
 
 .linha {
 	 width: 24px; 
 	 height: 3px;
 	 background-color: white;
-	 margin: 5px auto; 
+	 margin: 0px 0px 5px 0px;
 }
 
-.header-topo h1{
+.diff {
+	margin-bottom: 0px;
+}
+
+.title h1{
 	font-size: 55px;
 	text-transform: uppercase;
 	color: #61584c;
-	font-weight: 700;
+	letter-spacing: 2px;
 }
 
-.header-topo h3{
+.title h3{
 	font-size: 19px;
 	color: #606060;
-	font-family: Georgia;
+	font-family: Georgia Italic;
 	font-style: italic;
 	margin: 45px 15px;
+	letter-spacing: 1px;
 }
 
 .produtos img {
