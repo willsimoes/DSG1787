@@ -9,6 +9,14 @@ body {
 	margin: 16px;
 }
 
+.header-topo {
+	text-align: center;
+}
+
+.topo .logo {
+	height: 46px;
+}  
+
 .basket {
 	display: inline-block;
 }
@@ -19,32 +27,11 @@ body {
 	font-size: 10.94px;
 }
 
-
-.header-topo h1{
-	font-size: 55px;
-	text-transform: uppercase;
-	color: #61584c;
-}
-
-.header-topo h3{
-	font-size: 19px;
-	color: #606060;
-	font-family: George;
-}
-
-.topo .logo {
-	height: 46px;
-}  
 .menu-button {
 	background-color: rgb(97, 88, 76);
 	width: 46px;
 	height: 46px;
 	display: inline-block;
-
-}
-
-.produtos img {
-	width: 343px;
 }
 
 .linha {
@@ -54,14 +41,42 @@ body {
 	 margin: 5px auto; 
 }
 
-.retangulo {
-	width: 227px;
-	height: 70px;
+.header-topo h1{
+	font-size: 55px;
+	text-transform: uppercase;
+	color: #61584c;
+	font-weight: 700;
+}
+
+.header-topo h3{
+	font-size: 19px;
+	color: #606060;
+	font-family: Georgia;
+	font-style: italic;
+	margin: 45px 15px;
+}
+
+.produtos img {
+	width: 343px;
+	font-weight: 700;
+}
+
+.retangulo p {
+	display: inline-block;
 	background-color: black;
 	text-transform: uppercase;
 	color: white;
 	text-align: center;
-	margin: auto;
+	width: auto;
+	text-align: center;
+}
+
+
+
+.prod2 h3 {
+	margin: 90px 100px 0px 107px;
+    padding: 10px;
+	
 }
 
 .oferta1 {
@@ -101,17 +116,29 @@ body {
 
 .newsletter {
 	color: #303030;
+	text-align: center;
+	height: 420px;
 }
 .newsletter h2{
 	font-size: 27px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-top: 60px;
 }
 
 .newsletter p{
-	font-size: 14px
+	font-size: 14px;
+	font-style: italic;
+	font-family: Georgia;
+	padding-top: 29px;
+	line-height: 18px;
+	letter-spacing: 0.5px;
+	
 }
 
 .newsletter .email {
-	  height: 49px;
+	height: 49px;
+	margin-top: 47px;
 }
 
 .newsletter input {
@@ -126,10 +153,27 @@ body {
   background-color: #65a1c4;
   border: 1px solid #4786aa;
   color: white;
-  
 }
 
+.prod1 img {
+	border: 2px solid #606060;
+	width: 100%
+}
 
+.prod2 {
+	background-image: url(../img/camisa_listas.png);
+	height: 224px;
+	
+}
+
+.prod3 {
+	background-image: url(../img/blazer.png);
+	height: 224px;
+}
+
+footer {
+	text-align: center;
+}
 
 footer h3 {
 	font-size: 24px;
