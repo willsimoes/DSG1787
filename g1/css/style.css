@@ -1,0 +1,139 @@
+body {
+	border: 1px solid red;
+	width: 375px;
+}
+
+.principal {
+	border: 1px solid red;
+	margin: 16px;
+}
+
+.basket {
+	display: inline-block;
+}
+
+.basket p {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 10.94px;
+}
+
+.header-topo h1{
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.header-topo h3{
+	font-size: 19px;
+}
+
+.topo .logo {
+	height: 46px;
+}  
+.menu-button {
+	background-color: rgb(97, 88, 76);
+	width: 46px;
+	height: 46px;
+	display: inline-block;
+
+}
+
+.produtos img {
+	width: 343px;
+}
+
+.linha {
+	 width: 24px; 
+	 height: 3px;
+	 background-color: white;
+	 margin: 5px auto; 
+}
+
+.retangulo {
+	width: 227px;
+	height: 70px;
+	background-color: black;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+
+.oferta1 {
+  background-color: rgb(146, 180, 109);
+  width: 345px;
+  height: 148px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  color: white;
+}
+
+.oferta1 h3 {
+	font-size: 27px;
+}
+.oferta1 p {
+	font-size: 17px;
+}
+
+
+.oferta2 {
+  background-color: rgb(143, 162, 173);
+  width: 345px;
+  height: 227px;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  color: white;
+}
+
+.oferta2 h3 {
+	font-size: 27px;
+}
+.oferta2 p {
+	font-size: 17px;
+}
+
+.newsletter {
+	color: black;
+}
+.newsletter h2{
+	font-size: 27px;
+}
+
+.newsletter p{
+	font-size: 14px
+}
+
+.newsletter .email {
+	  height: 49px;
+}
+
+.newsletter input {
+  width: auto;
+  height: 100%;
+  border-color: rgb(206, 206, 206);
+  border: 1px;
+  border-style: solid;
+  
+}
+
+.newsletter button {
+  width: 88px;
+  height: 100%;
+  border: 1px;
+  background-color:;
+  border-style: solid;
+}
+
+
+
+footer h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+footer p {
+	font-size: 14px;
+}
+
+
