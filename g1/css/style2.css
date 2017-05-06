@@ -54,36 +54,129 @@ body {
 	text-align: center;
 	margin-top: 15px;
 	color: #606060;
-	
 }
 
-.title h3 {
+.title h2 {
 	border-top: 1px solid #e5e5e5;
 	text-transform: uppercase;
 	font-size: 14px;
 	padding-top: 33px;
-	padding-bottom: 3px;
+	padding-bottom: 5px;
 }
 
-.sapatos {
-	line-height: 35px;
+.categoria {
 	text-align: center;
 }
 
-.sapatos h2 {
-	padding-top: 47px;
+.categoria header {
+	line-height: 30px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.categoria h2 {
 	text-transform: uppercase;
 	font-size: 27px;
 	font-weight: 700;
 	color: #303030;
 }
 
-.sapatos a {
+.categoria a {
 	padding-bottom: 30px;
 	font-family: Georgia;
 	font-style: italic;
 	font-size: 14px;
 	color: #88a71d;
+}
+
+.categorias .camisas {
+	margin-bottom: 70px;
+}
+
+.produto {
+	font-family: 'Lato';
+	width: 157px;
+	height: 270px;
+	text-align: center;
+	font-size:  12px;
+	line-height: 20px;
+	display: inline-block;
+	color: #303030;
+}
+
+.produto h3 {
+	font-weight: 700;
+}
+
+.produto p {
+	text-transform: uppercase;
+}
+
+.left {
+	margin-right: 21px;
+}
+
+.img-prod {
+	width: 157px;
+	height: 215px;
+	border: 1px solid rgb(169, 169, 169);
+	background-repeat: no-repeat;
+}
+
+.sapatos .img-prod {
+	background-position: 12px 0;
+}
+
+.camisas .img-prod {
+	background-position: -15px 10px;
+}
+
+.dinis {
+	background-image: url(../img/dinis.png);
+}
+
+.tomas {
+	background-image: url(../img/tomas.png);
+}
+
+.samuel {
+	background-image: url(../img/samuel.png);
+}
+
+.tingo {
+	background-image: url(../img/tingo.png);
+}
+
+.xadrez {
+	background-image: url(../img/xadrez.png);
+}
+
+.malhabike {
+	background-image: url(../img/malhabike.png);
+}
+
+.rio {
+	background-image: url(../img/rio.png);
+}
+
+.oceano {
+	background-image: url(../img/oceano.png);
+}
+
+
+
+
+
+.Rectangle_7_copy {
+  border-width: 0.781px;
+  border-color: rgb(169, 169, 169);
+  border-style: solid;
+  position: absolute;
+  left: 15px;
+  top: 251px;
+  width: 157px;
+  height: 215px;
+  z-index: 51;
 }
 
 footer {
