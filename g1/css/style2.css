@@ -65,7 +65,7 @@ body {
 }
 
 .categoria {
-	text-align: center;
+	text-align: center;	
 }
 
 .categoria header {
@@ -82,7 +82,6 @@ body {
 }
 
 .categoria a {
-	padding-bottom: 30px;
 	font-family: Georgia;
 	font-style: italic;
 	font-size: 14px;
@@ -102,10 +101,12 @@ body {
 	line-height: 20px;
 	display: inline-block;
 	color: #303030;
+	margin-bottom: 30px;
 }
 
 .produto h3 {
 	font-weight: 700;
+	margin-top: 15px;
 }
 
 .produto p {
@@ -161,22 +162,6 @@ body {
 
 .oceano {
 	background-image: url(../img/oceano.png);
-}
-
-
-
-
-
-.Rectangle_7_copy {
-  border-width: 0.781px;
-  border-color: rgb(169, 169, 169);
-  border-style: solid;
-  position: absolute;
-  left: 15px;
-  top: 251px;
-  width: 157px;
-  height: 215px;
-  z-index: 51;
 }
 
 footer {
