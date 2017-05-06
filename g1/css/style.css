@@ -1,34 +1,35 @@
 body {
-	border: 1px solid red;
 	width: 375px;
 	font-family: 'Lato', sans-serif;
 }
 
 .principal {
-	border: 1px solid red;
 	margin: 16px;
 }
 
-.title {
-	text-align: center;
-	border-top: 1px solid #e5e5e5;
-	padding-top: 47px;
-	margin-top: 15px;
+.topo {
+	height: 46px;
+	width: 100%;
 }
-
 
 .topo .logo {
 	height: 46px;
+	display: inline-block;
 }  
 
 .basket {
 	display: inline-block;
+	padding: 0px 34px;
 }
 
 .basket p {
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 10.94px;
+}
+.seila {
+	display: inline-block;
+	margin-left: 52px;
 }
 
 .menu-button {
@@ -48,6 +49,13 @@ body {
 	margin-bottom: 0px;
 }
 
+.title {
+	text-align: center;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 47px;
+	margin-top: 15px;
+}
+
 .title h1{
 	font-size: 55px;
 	text-transform: uppercase;
@@ -63,10 +71,9 @@ body {
 	margin: 45px 15px;
 	letter-spacing: 1px;
 }
-
-.produtos img {
-	width: 343px;
-	font-weight: 700;
+.prod1 {
+	padding: 31px 26px;
+    border: 2px solid #606060;
 }
 
 .tenis {
@@ -80,71 +87,74 @@ body {
 .tenis h3 {
 	font-size: 18px;
 	padding-top: 20px;
+	font-weight: 700;
 }
 .tenis p {
+	font-family: Georgia Italic;
 	font-style: italic;
 	font-size: 16px;
-	padding-top: 20px;
+	padding-top: 12px;
 }
-
 .retangulo {
 	text-align: center;
 	display: inline-block;
 	background-color: black;
 	text-transform: uppercase;
 	color: white;
+	line-height: 30px;
+	padding: 5px;
+	margin: 80px 0 0 70px;
 }
-
 .retangulo h3 {
 	font-size: 27px;
+	font-weight: 700;
 }
 
 .retangulo p {
 	font-size: 17px;
-
+	font-family: Georgia Italic;
+	font-style: italic;
 }
 
 
-
-.prod2 h3 {
-	margin: 90px 100px 0px 107px;
-    padding: 10px;
-	
+.box {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  text-transform: uppercase;
+  color: white;
 }
 
 .oferta1 {
   background-color: rgb(146, 180, 109);
-  width: 345px;
   height: 148px;
-  text-align: center;
-  margin: auto;
-  text-transform: uppercase;
-  color: white;
 }
 
 .oferta1 h3 {
-	font-size: 27px;
-}
-.oferta1 p {
-	font-size: 17px;
-}
-
-
-.oferta2 {
-  background-color: rgb(143, 162, 173);
-  width: 345px;
-  height: 227px;
-  text-align: center;
-  margin: auto;
-  text-transform: uppercase;
-  color: white;
+	padding-top: 40px;
 }
 
 .oferta2 h3 {
-	font-size: 27px;
+	padding-top: 80px;
 }
-.oferta2 p {
+
+.box h3 {
+	font-size: 27px;
+	font-weight: 700;
+	line-height: 50px;
+    letter-spacing: 1px;
+	
+}
+.box p {
 	font-size: 17px;
+	font-family: Georgia Italic;
+	font-style: italic;
+}
+
+.oferta2 {
+  background-color: rgb(143, 162, 173);
+  height: 227px;
+
 }
 
 .newsletter {
@@ -186,13 +196,6 @@ body {
   background-color: #65a1c4;
   border: 1px solid #4786aa;
   color: white;
-}
-
-.prod1 {
-	border: 2px solid #606060;
-}
-.prod1 img {
-	width: 100%
 }
 
 .prod2 {
