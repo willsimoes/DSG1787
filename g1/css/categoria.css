@@ -31,7 +31,7 @@
 	color: #88a71d;
 }
 
-.categorias .camisas {
+.camisas {
 	margin-bottom: 70px;
 }
 
@@ -44,7 +44,7 @@
 	line-height: 20px;
 	display: inline-block;
 	color: #303030;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 .produto h3 {
