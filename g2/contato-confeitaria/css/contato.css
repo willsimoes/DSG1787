@@ -1,0 +1,78 @@
+.container {
+	border: 1px solid black;
+	background-color: #f8e8da;
+	
+	
+}
+
+.input {
+	margin: 5px 0;
+}
+
+.submit-mail {
+	
+	margin: 10px 0;
+}
+
+.button-submit {
+	border-radius: 0.3em;
+	padding: 5px 0;
+}
+
+.circulo{
+  display: inline-block;
+  margin: 7px;
+  width: 60px;
+  height: 60px;  
+  background: #644c2e;
+  border-radius: 100px;  
+  color: #e3cb93;
+  
+}
+
+.phone-icon {
+	margin-left: 13px;
+    margin-top: 10px;
+}
+
+.mail-icon {
+	margin-left: 16px;
+    margin-top: 15px;
+}
+
+.fb-icon {
+	margin-left: 16px;
+    margin-top: 10px;
+}
+
+.information {
+	margin-top: -10px;
+}
+
+.information p {
+	margin-top: -5px;
+}
+.information a {
+	margin-top: -5px;
+	text-decoration: none;
+}
+
+.information h3 {
+	font-size: 16px;
+    font-weight: 600;
+}
+
+.ribbon {
+  width: 0;
+  height: 67px;
+  border: 36px solid #f070aa;
+  border-top: 0 solid;
+  border-bottom: 35px solid rgba(0,0,0,0);
+  color: rgba(0,0,0,1);
+  text-overflow: clip;
+}
+
+.ribbon-body {
+	background-color: #f070aa;
+	width: 72px;
+}

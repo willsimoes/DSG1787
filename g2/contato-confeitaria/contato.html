@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contato</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link href="css/contato.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+	
+		<div class="container">
+			<section class="form-section">
+				<form action="/my-handling-form-page" method="post">
+					<div class="row input name">
+						<label class="col-xs-3 col-sm-2" for="name">Nome:</label>
+						<input class="col-xs-9 col-sm-10" type="text" id="name" name="user_name">
+					</div>
+					<div class="row input mail">
+						<label class="col-xs-3 col-sm-2" for="mail">E-mail:</label>
+						<input class="col-xs-9 col-sm-10" type="email" id="mail" name="user_mail">
+					</div>
+					<div class="row input message">
+						<label class="col-xs-4 col-sm-2" for="msg">Messagem:</label>
+						<textarea class="col-xs-8 col-sm-10"id="msg" name="user_message"></textarea>
+					</div>
+					<div class="row submit-mail">
+						<button class="col-xs-12 button-submit" type="submit">Send your message</button>
+					</div>
+				</form>
+			</section>
+			<section class="contact-section">
+				<div class="row">
+					<div class="col-xs-3">
+						<div class="ribbon-body">
+							<div class="circulo"><span class="fa fa-phone fa-3x phone-icon"></span></div>
+						</div>
+					</div>
+					<div class="col-xs-9 information">
+						<h3>Encomendas por telefone</h3>
+						<p>(21) 9854-5454</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3">
+						<div class="ribbon-body">
+							<div class="circulo"><span class="fa fa-envelope fa-2x mail-icon"></span></div>
+						</div>
+					</div>
+					<div class="col-xs-9 information">
+						<h3>E-mail</h3>
+						<p>atendimento@casabomdoce.com</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3">
+						<div class="ribbon-body">
+							<div class="circulo"><span class="fa fa-facebook fa-3x fb-icon"></span></div>
+						</div>
+					</div>
+					<div class="col-xs-9 information">
+						<h3>Curta nossa página Facebook</h3>
+						<a href="https://www.facebook.com/casadobomdoce"><p>fb.com/casadobomdoce</p></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3">
+						<div class="ribbon"></div>
+					</div>
+				
+				</div>
+			</section>
+		</div>
+			
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
