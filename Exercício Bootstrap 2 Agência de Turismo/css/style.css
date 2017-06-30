@@ -1,0 +1,25 @@
+.premium {
+	color: #1b8ab9;
+}
+
+.box {
+	background-color: #dae6eb;
+	padding: 10px 20px;
+}
+
+.div-footer {
+	margin-top: 20px;
+}
+
+.col-footer {
+	border-top: 1px dotted #377b8e;
+}
+
+.btn-group {
+	padding-top: 15px;
+}
+
+body {
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
